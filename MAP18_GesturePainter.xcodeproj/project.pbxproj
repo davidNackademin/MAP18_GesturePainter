@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F8B65C22437F3800E2EB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B65B22437F3800E2EB98 /* AppDelegate.swift */; };
+		63F8B65E22437F3800E2EB98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B65D22437F3800E2EB98 /* ViewController.swift */; };
+		63F8B66122437F3800E2EB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F8B65F22437F3800E2EB98 /* Main.storyboard */; };
+		63F8B66322437F3900E2EB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F8B66222437F3900E2EB98 /* Assets.xcassets */; };
+		63F8B66622437F3900E2EB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F8B66422437F3900E2EB98 /* LaunchScreen.storyboard */; };
+		63F8B67122437F3900E2EB98 /* MAP18_GesturePainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B67022437F3900E2EB98 /* MAP18_GesturePainterTests.swift */; };
+		63F8B67C22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B67B22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F8B66D22437F3900E2EB98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F8B65022437F3800E2EB98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F8B65722437F3800E2EB98;
+			remoteInfo = MAP18_GesturePainter;
+		};
+		63F8B67822437F3900E2EB98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F8B65022437F3800E2EB98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F8B65722437F3800E2EB98;
+			remoteInfo = MAP18_GesturePainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F8B65822437F3800E2EB98 /* MAP18_GesturePainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAP18_GesturePainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8B65B22437F3800E2EB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F8B65D22437F3800E2EB98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F8B66022437F3800E2EB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F8B66222437F3900E2EB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F8B66522437F3900E2EB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F8B66722437F3900E2EB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F8B66C22437F3900E2EB98 /* MAP18_GesturePainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP18_GesturePainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8B67022437F3900E2EB98 /* MAP18_GesturePainterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP18_GesturePainterTests.swift; sourceTree = "<group>"; };
+		63F8B67222437F3900E2EB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F8B67722437F3900E2EB98 /* MAP18_GesturePainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP18_GesturePainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8B67B22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP18_GesturePainterUITests.swift; sourceTree = "<group>"; };
+		63F8B67D22437F3900E2EB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F8B65522437F3800E2EB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B66922437F3900E2EB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B67422437F3900E2EB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F8B64F22437F3800E2EB98 = {
+			isa = PBXGroup;
+			children = (
+				63F8B65A22437F3800E2EB98 /* MAP18_GesturePainter */,
+				63F8B66F22437F3900E2EB98 /* MAP18_GesturePainterTests */,
+				63F8B67A22437F3900E2EB98 /* MAP18_GesturePainterUITests */,
+				63F8B65922437F3800E2EB98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F8B65922437F3800E2EB98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F8B65822437F3800E2EB98 /* MAP18_GesturePainter.app */,
+				63F8B66C22437F3900E2EB98 /* MAP18_GesturePainterTests.xctest */,
+				63F8B67722437F3900E2EB98 /* MAP18_GesturePainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F8B65A22437F3800E2EB98 /* MAP18_GesturePainter */ = {
+			isa = PBXGroup;
+			children = (
+				63F8B65B22437F3800E2EB98 /* AppDelegate.swift */,
+				63F8B65D22437F3800E2EB98 /* ViewController.swift */,
+				63F8B65F22437F3800E2EB98 /* Main.storyboard */,
+				63F8B66222437F3900E2EB98 /* Assets.xcassets */,
+				63F8B66422437F3900E2EB98 /* LaunchScreen.storyboard */,
+				63F8B66722437F3900E2EB98 /* Info.plist */,
+			);
+			path = MAP18_GesturePainter;
+			sourceTree = "<group>";
+		};
+		63F8B66F22437F3900E2EB98 /* MAP18_GesturePainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F8B67022437F3900E2EB98 /* MAP18_GesturePainterTests.swift */,
+				63F8B67222437F3900E2EB98 /* Info.plist */,
+			);
+			path = MAP18_GesturePainterTests;
+			sourceTree = "<group>";
+		};
+		63F8B67A22437F3900E2EB98 /* MAP18_GesturePainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63F8B67B22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift */,
+				63F8B67D22437F3900E2EB98 /* Info.plist */,
+			);
+			path = MAP18_GesturePainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F8B65722437F3800E2EB98 /* MAP18_GesturePainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8B68022437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainter" */;
+			buildPhases = (
+				63F8B65422437F3800E2EB98 /* Sources */,
+				63F8B65522437F3800E2EB98 /* Frameworks */,
+				63F8B65622437F3800E2EB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAP18_GesturePainter;
+			productName = MAP18_GesturePainter;
+			productReference = 63F8B65822437F3800E2EB98 /* MAP18_GesturePainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F8B66B22437F3900E2EB98 /* MAP18_GesturePainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8B68322437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainterTests" */;
+			buildPhases = (
+				63F8B66822437F3900E2EB98 /* Sources */,
+				63F8B66922437F3900E2EB98 /* Frameworks */,
+				63F8B66A22437F3900E2EB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F8B66E22437F3900E2EB98 /* PBXTargetDependency */,
+			);
+			name = MAP18_GesturePainterTests;
+			productName = MAP18_GesturePainterTests;
+			productReference = 63F8B66C22437F3900E2EB98 /* MAP18_GesturePainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63F8B67622437F3900E2EB98 /* MAP18_GesturePainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8B68622437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainterUITests" */;
+			buildPhases = (
+				63F8B67322437F3900E2EB98 /* Sources */,
+				63F8B67422437F3900E2EB98 /* Frameworks */,
+				63F8B67522437F3900E2EB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F8B67922437F3900E2EB98 /* PBXTargetDependency */,
+			);
+			name = MAP18_GesturePainterUITests;
+			productName = MAP18_GesturePainterUITests;
+			productReference = 63F8B67722437F3900E2EB98 /* MAP18_GesturePainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F8B65022437F3800E2EB98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Svensson";
+				TargetAttributes = {
+					63F8B65722437F3800E2EB98 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					63F8B66B22437F3900E2EB98 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 63F8B65722437F3800E2EB98;
+					};
+					63F8B67622437F3900E2EB98 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 63F8B65722437F3800E2EB98;
+					};
+				};
+			};
+			buildConfigurationList = 63F8B65322437F3800E2EB98 /* Build configuration list for PBXProject "MAP18_GesturePainter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F8B64F22437F3800E2EB98;
+			productRefGroup = 63F8B65922437F3800E2EB98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F8B65722437F3800E2EB98 /* MAP18_GesturePainter */,
+				63F8B66B22437F3900E2EB98 /* MAP18_GesturePainterTests */,
+				63F8B67622437F3900E2EB98 /* MAP18_GesturePainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F8B65622437F3800E2EB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8B66622437F3900E2EB98 /* LaunchScreen.storyboard in Resources */,
+				63F8B66322437F3900E2EB98 /* Assets.xcassets in Resources */,
+				63F8B66122437F3800E2EB98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B66A22437F3900E2EB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B67522437F3900E2EB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F8B65422437F3800E2EB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8B65E22437F3800E2EB98 /* ViewController.swift in Sources */,
+				63F8B65C22437F3800E2EB98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B66822437F3900E2EB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8B67122437F3900E2EB98 /* MAP18_GesturePainterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8B67322437F3900E2EB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8B67C22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F8B66E22437F3900E2EB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F8B65722437F3800E2EB98 /* MAP18_GesturePainter */;
+			targetProxy = 63F8B66D22437F3900E2EB98 /* PBXContainerItemProxy */;
+		};
+		63F8B67922437F3900E2EB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F8B65722437F3800E2EB98 /* MAP18_GesturePainter */;
+			targetProxy = 63F8B67822437F3900E2EB98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F8B65F22437F3800E2EB98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8B66022437F3800E2EB98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F8B66422437F3900E2EB98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8B66522437F3900E2EB98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F8B67E22437F3900E2EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63F8B67F22437F3900E2EB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F8B68122437F3900E2EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63F8B68222437F3900E2EB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63F8B68422437F3900E2EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAP18_GesturePainter.app/MAP18_GesturePainter";
+			};
+			name = Debug;
+		};
+		63F8B68522437F3900E2EB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAP18_GesturePainter.app/MAP18_GesturePainter";
+			};
+			name = Release;
+		};
+		63F8B68722437F3900E2EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAP18_GesturePainter;
+			};
+			name = Debug;
+		};
+		63F8B68822437F3900E2EB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP18_GesturePainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MAP18-GesturePainterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAP18_GesturePainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F8B65322437F3800E2EB98 /* Build configuration list for PBXProject "MAP18_GesturePainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8B67E22437F3900E2EB98 /* Debug */,
+				63F8B67F22437F3900E2EB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8B68022437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8B68122437F3900E2EB98 /* Debug */,
+				63F8B68222437F3900E2EB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8B68322437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8B68422437F3900E2EB98 /* Debug */,
+				63F8B68522437F3900E2EB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8B68622437F3900E2EB98 /* Build configuration list for PBXNativeTarget "MAP18_GesturePainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8B68722437F3900E2EB98 /* Debug */,
+				63F8B68822437F3900E2EB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F8B65022437F3800E2EB98 /* Project object */;
+}
