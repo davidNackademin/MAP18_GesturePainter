@@ -57,6 +57,17 @@
                                             <action selector="changeColor:" destination="BYZ-38-t0r" id="Xh4-Cd-r55"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8e6-xk-KF6"/>
+                                    <barButtonItem title="-" id="rPd-6M-fk3">
+                                        <connections>
+                                            <action selector="decreaseLineWidth:" destination="BYZ-38-t0r" id="V0k-58-PLd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="+" id="CZc-UM-N2X">
+                                        <connections>
+                                            <action selector="increaseLineWidth:" destination="BYZ-38-t0r" id="lH7-8C-ThF"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>

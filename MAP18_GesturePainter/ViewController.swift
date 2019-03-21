@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     
     var start: CGPoint?
     var paintColor = UIColor.magenta.cgColor
-    
-    
-    
+    var lineWidth : CGFloat = 10
+    let deltaLineWidth: CGFloat = 2
+    let maxLineWidth: CGFloat = 16
+    let minLineWidth: CGFloat = 2
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -52,28 +54,20 @@ class ViewController: UIViewController {
                                           height: canvas.frame.size.height ))
             
             
-            
             // rita en ny linje från senaste uppritningen till var fingret är nu
             context.setStrokeColor(paintColor)
-            context.setLineWidth(10)
+            context.setLineWidth(lineWidth)
             context.setLineCap(.round)
             context.beginPath()
             context.move(to: start)
             context.addLine(to: end)
             context.strokePath()
             
-            
             let newImage = UIGraphicsGetImageFromCurrentImageContext()
             UIGraphicsEndImageContext()
             
-            
             canvas.image = newImage
-            
-            
-            
         }
-        
-        
     }
     
     
@@ -84,6 +78,18 @@ class ViewController: UIViewController {
     
     @IBAction func changeColor(_ sender: UIBarButtonItem) {
         paintColor = (sender.tintColor?.cgColor)!
+    }
+    
+    @IBAction func decreaseLineWidth(_ sender: UIBarButtonItem) {
+        if  lineWidth >= minLineWidth + deltaLineWidth {
+            lineWidth -= deltaLineWidth
+        }
+    }
+    
+    @IBAction func increaseLineWidth(_ sender: UIBarButtonItem) {
+        if  lineWidth <= maxLineWidth - deltaLineWidth    {
+            lineWidth += deltaLineWidth
+        }
     }
 }
 
