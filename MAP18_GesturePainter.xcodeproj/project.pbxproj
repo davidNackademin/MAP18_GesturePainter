@@ -14,6 +14,7 @@
 		63F8B66622437F3900E2EB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F8B66422437F3900E2EB98 /* LaunchScreen.storyboard */; };
 		63F8B67122437F3900E2EB98 /* MAP18_GesturePainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B67022437F3900E2EB98 /* MAP18_GesturePainterTests.swift */; };
 		63F8B67C22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B67B22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift */; };
+		63F8B68A2243805300E2EB98 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8B6892243805300E2EB98 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63F8B67722437F3900E2EB98 /* MAP18_GesturePainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP18_GesturePainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F8B67B22437F3900E2EB98 /* MAP18_GesturePainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP18_GesturePainterUITests.swift; sourceTree = "<group>"; };
 		63F8B67D22437F3900E2EB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F8B6892243805300E2EB98 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				63F8B65B22437F3800E2EB98 /* AppDelegate.swift */,
 				63F8B65D22437F3800E2EB98 /* ViewController.swift */,
+				63F8B6892243805300E2EB98 /* CanvasView.swift */,
 				63F8B65F22437F3800E2EB98 /* Main.storyboard */,
 				63F8B66222437F3900E2EB98 /* Assets.xcassets */,
 				63F8B66422437F3900E2EB98 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				63F8B65E22437F3800E2EB98 /* ViewController.swift in Sources */,
 				63F8B65C22437F3800E2EB98 /* AppDelegate.swift in Sources */,
+				63F8B68A2243805300E2EB98 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
